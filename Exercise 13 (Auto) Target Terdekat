@@ -1,0 +1,25 @@
+//1.Cari 'o'
+//2.Cari ' '
+//3.Cari 'x'
+//4.Hitung jumlah ' ' antara 'o' dan 'x'
+//5.Tampilkan hasil pencarian
+
+function targetTerdekat(arr){
+    var o=arr.indexOf('o');
+    for(i=o; i<arr.lenght; i++){
+        if(arr[i]=='x'){
+            var jarak=i-o}
+        // }else if(arr[i]!='x'){
+        //     for(j=o; j>=0; j--){
+        //         if(arr[j]=='x'){
+        //             jarak=j-o
+        //         }
+        //     }
+        // }return jarak
+    }return jarak
+}
+console.log(targetTerdekat([' ', ' ', 'o', ' ', ' ', 'x', ' ', 'x']));
+console.log(targetTerdekat(['o', ' ', ' ', ' ', 'x', 'x', 'x'])); // 4
+console.log(targetTerdekat(['x', ' ', ' ', ' ', 'x', 'x', 'o', ' '])); // 1
+console.log(targetTerdekat([' ', ' ', 'o', ' '])); // 0
+console.log(targetTerdekat([' ', 'o', ' ', 'x', 'x', ' ', ' ', 'x'])); // 2
