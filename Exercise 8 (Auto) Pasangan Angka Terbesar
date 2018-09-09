@@ -2,7 +2,7 @@ function pasanganTerbesar(num) {
     var numBaru = ""
     numBaru = numBaru + num
     var max = numBaru[0] + numBaru[1]
-    for (i = 1; i <= numBaru.length; i++) {
+    for (var i = 1; i <= numBaru.length; i++) {
         var maxBaru = numBaru[i] + numBaru[i + 1]
         if (max <= maxBaru) {
             max = maxBaru

@@ -6,7 +6,7 @@ var data = [
 ]
 function dataHandling() {
     var gabung = '';
-    for (i = 0; i <= data.length - 1; i++) {
+    for (var i = 0; i <= data.length - 1; i++) {
         gabung += 'Nomor ID: ' + data[i][0] + '\n' + 'Nama Lengkap: ' + data[i][1] + '\n' + 'TTL: ' + data[i][2] + '\n' + data[i][3] + '\n' + 'Hobi: ' + data[i][4] + '\n' + '\n';
     }
     return gabung;
