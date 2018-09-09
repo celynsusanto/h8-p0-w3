@@ -16,7 +16,7 @@ function mengelompokkanAngka(arr) {
     var arrKelTiga = []
 
 
-    for (i = 0; i <= arr.length - 1; i++) {
+    for (var i = 0; i <= arr.length - 1; i++) {
         if (arr[i] % 2 == 0 && arr[i] % 3 != 0) {
             arrGenap.push(arr[i])
         } else if (arr[i] % 2 != 0 && arr[i] % 3 != 0) {
