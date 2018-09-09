@@ -8,7 +8,7 @@ function pasanganTerbesar(num) {
             max = maxBaru
         } else {
         }
-    } return max
+    } return parseInt(max)
 }
 console.log(pasanganTerbesar(641573));
 console.log(pasanganTerbesar(12783456));
