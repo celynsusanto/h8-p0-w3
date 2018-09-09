@@ -1,10 +1,10 @@
-//1. Buat array genap
-//2. Buat array ganjil
-//3. Buat array kelipatanTiga
-//4. Buat array tempat
+//1. Buat array genap tanpa value 
+//2. Buat array ganjil tanpa value
+//3. Buat array kelipatanTiga tanpa value
+//4. Buat array tempat tanpa value
 //5. Lakukan perulangan pada arr
-//6. Buat kondisi jika angka habis dibagi 2 sama dengan 0 masukkan ke array genap
-//7. Buat kondisi jika angka modulus 2 tidak sama dengan 0 masukkan ke array ganjil
+//6. Buat kondisi jika angka habis dibagi 2 sama dengan 0 DAN angka modulus 3 tidak sama dengan 0  masukkan ke array genap
+//7. Buat kondisi jika angka modulus 2 tidak sama dengan 0 dan angka modulus 3 tidak sama dengan 0 masukkan ke array ganjil
 //8. Buat kondisi jika angka modulus 3 sama dengan 0 maka masukkan ke array kelipatanTiga
 //9. Masukkan array genap, array ganjil, dan array kelipatanTiga kedalam tempat
 //8. Kembalikan array tempat
