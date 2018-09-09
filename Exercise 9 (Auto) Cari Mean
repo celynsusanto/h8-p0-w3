@@ -1,20 +1,13 @@
-//1. Masukkan deretan angka didalam 'arr'
-//2. Tambahkan deretan angka didalam 'arr' tersebut
-//3. Bagi hasil penjumlahan dengan 2
-//4. Bulatkan hasil pembagian
-//5. Tampilkan hasil pembulatan
-//6. Selesai
-
-function cariMean(arr){
-    var sum=0
-    for(i=0; i<arr.length; i++){
-        sum=sum+arr[i]
+function cariMean(arr) {
+    var sum = 0
+    for (i = 0; i < arr.length; i++) {
+        sum = sum + arr[i]
     }
-    var mean=sum/arr.length
+    var mean = sum / arr.length
     return Math.round(mean)
 }
 console.log(cariMean([1, 2, 3, 4, 5]));
-console.log(cariMean([3, 5, 7, 5, 3])); 
-console.log(cariMean([6, 5, 4, 7, 3])); 
-console.log(cariMean([1, 3, 3])); 
+console.log(cariMean([3, 5, 7, 5, 3]));
+console.log(cariMean([6, 5, 4, 7, 3]));
+console.log(cariMean([1, 3, 3]));
 console.log(cariMean([7, 7, 7, 7, 7]));

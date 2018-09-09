@@ -1,12 +1,3 @@
-//Buat function dataHandling2 
-//Masukkan array di function tersebut
-//Gunakan fungsi splice untuk memodifikasi variable
-//Ganti index [2] dgn 'Provinsi Bandar Lampung'
-//Tambahkan 'pria' setelah data index [4]
-//ganti index [5] dgn 'SMA Internasional Metro'
-
-//Gunakan split di elemen ke 4
-//Ambil angka bulan dan console.log nama bulan sesuai angka tsb
 var data = ["0001", "Roman Alamsyah", "Bandar Lampung", "21/05/1989", "Membaca"]
 
 function dataHandling2() {

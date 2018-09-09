@@ -4,19 +4,13 @@
 //4.Hitung jumlah ' ' antara 'o' dan 'x'
 //5.Tampilkan hasil pencarian
 
-function targetTerdekat(arr){
-    var o=arr.indexOf('o');
-    for(i=o; i<arr.lenght; i++){
-        if(arr[i]=='x'){
-            var jarak=i-o}
-        // }else if(arr[i]!='x'){
-        //     for(j=o; j>=0; j--){
-        //         if(arr[j]=='x'){
-        //             jarak=j-o
-        //         }
-        //     }
-        // }return jarak
-    }return jarak
+function targetTerdekat(arr) {
+    var o = arr.indexOf('o');
+    for (i = o; i < arr.lenght; i++) {
+        if (arr[i] == 'x') {
+            var jarak = i - o
+        }
+    } return jarak
 }
 console.log(targetTerdekat([' ', ' ', 'o', ' ', ' ', 'x', ' ', 'x']));
 console.log(targetTerdekat(['o', ' ', ' ', ' ', 'x', 'x', 'x'])); // 4

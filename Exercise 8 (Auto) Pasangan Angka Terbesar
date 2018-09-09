@@ -1,11 +1,3 @@
-//1. Buat 'num' yang berbentuk angka menjadi string agar dapat menggunakan indexnya
-//2. Tetapkan angka pertama di index 0 dan angka kedua di index 1 sebagai 'max'
-//3. Lakukan perulangan dengan batas panjang 'num' itu sendiri untuk mendapatkan 'maxBaru'
-//4. Setiap terbentuk 'maxBaru' baru cek apakah angka tersebut lebih besar dari angka pada 'max' sebelumnya atau tidak
-//5. Jika iya maka 'maxBaru' adalah 'max'
-//5. Ulangi langkah 4 sampai selesai mengecek seluruh angka
-//6. Selesai
-
 function pasanganTerbesar(num) {
     var numBaru = ""
     numBaru = numBaru + num
