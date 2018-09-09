@@ -5,7 +5,7 @@ function targetTerdekat(arr) {
     //jika tidak ada x 
     if (arr.indexOf('x') === -1){
         return 0}
-    for (i = 0; i < arr.length; i++) {
+    for (var i = 0; i < arr.length; i++) {
         //cari x
         if (arr[i] === 'x') {
             //jika ketemu x
